@@ -31,11 +31,12 @@ var shpwrite = require('shp-write');
 
 // (optional) set names for feature types and zipped folder
 var options = {
+    file: 'myshapes',
     folder: 'myshapes',
     types: {
         point: 'mypoints',
         polygon: 'mypolygons',
-        line: 'mylines'
+        polyline: 'mylines'
     }
 }
 // a GeoJSON bridge for features
